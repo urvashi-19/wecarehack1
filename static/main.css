@@ -15,32 +15,95 @@
 
 
 
-.div-block-316 img{
-    width: 131px;
-    
-}
 
-.div-block-316 img {
-    border: 0;
-    vertical-align: middle;
-    display: inline-block;
-
-}
-
-.w-layout-grid 
+.team-container
 {
-    display: grid;
-    grid-template-columns: repeat(4,2fr);
-    grid-auto-rows: minmax(100px,auto);
-    grid-gap:0px;
-    max-width: 960px;
-    margin: 0 auto;
+    width:100%;
+    height: auto;
+ 
+}
+/* .text
+{
+    color:#097e8dfa;
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+ 
+} */
 
- }
- .w-layout-grid .div-block-316{
-    padding: 10px;
-    padding-left: 90px;
- }
+.desc p {
+    font-size: 18px;
+    line-height: 2.5rem;
+    margin-top: 9px;
+    color: #000000;
+    margin-left: -55px;
+}
+.row
+{
+    width: 60%;
+    margin:auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+@media(max-width: 768px)
+{
+    .row{
+        width: 100%;
+    }
+}
+.profile-card
+{
+    background-color: #ffffff;
+    width: 270px;
+    height: 250px;
+    margin: 20px 10px 10px 10px;
+}
+@media(max-width: 468px)
+{
+    .profile-card
+    {
+        width: 290px;
+        height: 250px;
+    }
+}
+.profile-content
+{
+    padding:15px;
+}
+.profile-image img {
+    width: 173px;
+    height: 166px;
+    border-radius: 78px;
+}
+.profile-image
+{
+    text-align: center;
+}
+.desc
+{
+    text-align: center;
+}
+/* .desc h2
+{
+    color: rgb(12,172,150);
+    font-size: 20px;
+}
+.desc p {
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-top: 9px;
+    color: #000000;
+    margin-left: -12px;
+} */
+
+
 
 /* some resets */
 *{

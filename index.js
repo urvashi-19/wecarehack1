@@ -23,6 +23,10 @@ app.get("/health", (req, res) => {
     
     res.sendFile(path.join(__dirname + "/static/main.html"));
  })
+app.get("/help", (req, res) => {
+    
+    res.sendFile(path.join(__dirname + "/static/help.html"));
+ })
 
 app.listen(PORT, () => {
     console.log("successfully working on port 3000");
