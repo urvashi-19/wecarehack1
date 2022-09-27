@@ -6,7 +6,7 @@ console.log( path.join(__dirname  ))
 const bodyParser = require('body-parser');
 app.use(express.static(staticPath ));
 
-
+const PORT = process.env.PORT || 3000
 
 app.get("/", (req, res) => {
    res.sendFile(staticPath)
@@ -24,6 +24,6 @@ app.get("/health", (req, res) => {
     res.sendFile(path.join(__dirname + "/static/main.html"));
  })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log("successfully working on port 3000");
 })
