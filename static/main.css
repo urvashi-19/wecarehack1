@@ -81,10 +81,12 @@
     width: 173px;
     height: 166px;
     border-radius: 78px;
+   
 }
-.profile-image
-{
+.profile-image {
     text-align: center;
+    margin-left: 50px
+    
 }
 .desc
 {
@@ -1150,6 +1152,11 @@ button[class ^= navbar]:hover{
         padding: 10px;
         padding-left: 11px;
     }
+    profile-image {
+        text-align: center;
+        margin-left: 50px
+        
+    }
 }
 
 @media(max-width:200px){
@@ -1167,6 +1174,11 @@ button[class ^= navbar]:hover{
         padding: 6px;
         padding-left: 5px;
     }
+    profile-image {
+        text-align: center;
+        margin-left: 50px
+        
+    }
 }
 @media(max-width:400px){
     .w-layout-grid 
@@ -1182,5 +1194,14 @@ button[class ^= navbar]:hover{
      w-layout-grid .div-block-316 {
         padding: 6px;
         padding-left: 5px;
+    }
+}
+
+@media(max-width:400px){
+    .profile-image img {
+        width: 173px;
+        height: 166px;
+        border-radius: 78px;
+        margin-left: 44px;
     }
 }
