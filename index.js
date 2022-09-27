@@ -1,10 +1,11 @@
 const express = require("express")
 const app = express()
 const path = require("path");
-const staticPath = path.join(__dirname + "/static");
+const staticPath = path.join(__dirname + "/static" );
+console.log( path.join(__dirname  ))
 const bodyParser = require('body-parser');
-app.use(express.static(staticPath));
-const mongoose = require('mongoose')
+app.use(express.static(staticPath ));
+
 
 
 app.get("/", (req, res) => {

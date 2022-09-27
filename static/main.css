@@ -193,7 +193,7 @@ h1, h2, h3{
         top: 0;
         left: 0;
         width: 100%;
-        padding: 3.2rem 0;
+        padding: 2.2rem 0;
         z-index: 9;
     
 }
@@ -306,6 +306,8 @@ button[class ^= navbar]:hover{
 /* header inner */
 .header-inner{
     padding-top: -5rem;
+    margin-top:5%;
+
 }
 .header-inner-left h1{
     font-size: 4rem;
@@ -455,8 +457,15 @@ button[class ^= navbar]:hover{
     background-color: var(--light-gray);
 }
 .services-inner{
+    margin-left: auto;
+    margin-right: auto;
     padding: 6rem 0;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-rows: auto; */
 }
+
+
 .service-item{
     padding: 3rem;
     margin-bottom: 3rem;
