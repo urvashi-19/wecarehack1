@@ -6,11 +6,12 @@
     "nodemon": "^2.0.20"
   },
   "name": "hack1",
-  "description": "��#\u0000 \u0000w\u0000e\u0000c\u0000a\u0000r\u0000e\u0000h\u0000a\u0000c\u0000k\u00001\u0000\r\u0000 \u0000",
+  "description": "",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
