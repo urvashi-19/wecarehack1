@@ -15,6 +15,10 @@ app.get("/register", (req, res) => {
     
     res.sendFile(path.join(__dirname + "/static/reg.html"));
  })
+app.get("/login1", (req, res) => {
+    
+    res.sendFile( res.sendFile(staticPath));
+ })
 app.get("/fertility", (req, res) => {
     
     res.sendFile(path.join(__dirname + "/static/women.html"));
