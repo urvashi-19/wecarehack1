@@ -718,12 +718,12 @@ button[class ^= navbar]:hover{
 }
 .form-element .form-control{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #f19cbb;
     border: none;
     outline: 0;
     padding: 1rem 1.6rem;
     margin-bottom: 1.6rem;
-    /* color: var(--light-color); */
+    color: var(--light-color);
 }
 .form-element .form-control::-webkit-input-placeholder{
     color: var(--light-color);
