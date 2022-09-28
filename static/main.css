@@ -6,7 +6,7 @@
     --light-blue-color: #16c5ff;
     --dark-color: #202020;
     --light-gray: #dedede;
-    --dark-gray: #a1a1a0;
+    /* --dark-gray: #a1a1a0; */
     --light-color: #fff;
     --poppins-font: 'Poppins', sans-serif;
     --transition: all 0.3s ease-in-out;
@@ -718,7 +718,7 @@ button[class ^= navbar]:hover{
 }
 .form-element .form-control{
     width: 100%;
-    background-color: #f19cbb;
+    background-color: whitesmoke;
     border: none;
     outline: 0;
     padding: 1rem 1.6rem;

@@ -30,6 +30,9 @@ function submitForm(e){
   console.log(name1 , email1 , msg);
 
   document.querySelector('.alert').style.display = 'block';
+//   document.querySelector('.name1').style.display = 'block';
+//   document.querySelector('.email1').style.display = 'block';
+//   document.querySelector('#msg').placeholder = "";
 }
 
 const saveMessages = (name1 , email1,msg)=>{
