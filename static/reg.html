@@ -12,8 +12,9 @@
     <div class="title">
         Patient General Information
     </div>
-    <form id="login" >
+    <form id="login" action="" >
     <div class="form">
+      <div class="alert">Your Message Sent</div><br>
        <div class="inputfield">
           <label>Full Name</label>
           <input type="text" class="input" required  id="name">
@@ -101,63 +102,9 @@
    </div>
 </form>
 </div>	
-<script>
-   // const form = document.getElementById('login');
-   // form.addEventListener('submit',registerUser);
-   // async function registerUser(event){
-   //    event.preventDefault();
-   //    const name = document.getElementById("name").value;
-   //    const dob = document.getElementById("birthday").value;
-   //    const blood = document.getElementById("blood").value;
-   //    const age = document.getElementById("age").value;
-   //    const email = document.getElementById("email").value;
-   //    const phone1 = document.getElementById("p1").value;
-   //    const phone2 = document.getElementById("p2").value;
-   //    const phone3 = document.getElementById("p3").value;
-   //    const phone4 = document.getElementById("p4").value;
-   //    const pregnancyweek= document.getElementById("pweek").value;
-   //    const slot= document.getElementById("slot").value;
-   //    const address = document.getElementById("address").value;
-   //    const postal = document.getElementById("postal").value;
 
-   //    const result = await fetch('/api/submit' , {
-   //       method: 'POST',
-	// 				headers: {
-	// 					'Content-Type': 'application/json'
-	// 				},
-   //       body: JSON.stringify({
-   //          name,
-   //          dob,
-   //          blood,
-   //          age,
-   //          email,
-   //          phone1,
-   //          phone2,
-   //          phone3,
-   //          phone4,
-   //          pregnancyweek,
-   //          slot,
-   //          address,
-   //          postal
-   //       })
-   //    }).then((res) => res.json())
-   //    if(result.status === 'ok'){
-   //       alert('Success');
-   //    }
-   //    else{
-   //       alert(result.error)
-   //    }
-
-
-
-
-
-      
-      
-
-      
-  // }
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="reg.js"></script>
   
 </body>
 </html>

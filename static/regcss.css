@@ -203,3 +203,16 @@ body{
     flex-direction: row;
   }
 }
+
+
+.alert{
+  width:100%;
+  background: rgba(0, 255 ,106);
+  padding : 8px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  display: none;
+
+}

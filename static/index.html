@@ -430,15 +430,17 @@
                         <h3 class = "lead">Contact Us</h3>
                         <p class = "text text-md">For further details plz contact us...</p>
                     </div>
-                    <form>
+                    <form id="login" action="">
+                        <div class="alert">Your Message Sent</div><br>
                         <div class = "form-element">
-                            <input type = "text" class = "form-control" placeholder="Your name">
+
+                            <input type = "text" class = "form-control" placeholder="Your name" id="name1">
                         </div>
                         <div class = "form-element">
-                            <input type = "email" class = "form-control" placeholder="Your email">
+                            <input type = "email" class = "form-control" placeholder="Your email" id="email1">
                         </div>
                         <div class = "form-element">
-                            <textarea rows = "5" placeholder="Your Message" class = "form-control"></textarea>
+                            <textarea rows = "5" placeholder="Your Message" class = "form-control" id="msg"></textarea>
                         </div>
                         <button type = "submit" class = "btn btn-white btn-submit">
                             <i class = "fas fa-arrow-right"></i> Send Message
@@ -524,6 +526,8 @@
 
 
     <!-- custom js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <script src = "script.js"></script>
+    <script src="new.js"></script>
 </body>
 </html>
