@@ -9,7 +9,7 @@ const firebaseConfig = {
     measurementId: "G-0811575EWS"
   };
 
-
+let inputs = document.querySelector('input');
   firebase.initializeApp(firebaseConfig);
 
   //
@@ -30,9 +30,10 @@ function submitForm(e){
   console.log(name1 , email1 , msg);
 
   document.querySelector('.alert').style.display = 'block';
-//   document.querySelector('.name1').style.display = 'block';
-//   document.querySelector('.email1').style.display = 'block';
-//   document.querySelector('#msg').placeholder = "";
+//   document.getElementById("name1").innerHTML = "";
+//   document.getElementById("email1").innerHTML = "";
+//   document.getElementById("msg").innerHTML = "";
+
 }
 
 const saveMessages = (name1 , email1,msg)=>{

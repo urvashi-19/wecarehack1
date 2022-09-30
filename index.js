@@ -27,6 +27,10 @@ app.get("/health", (req, res) => {
     
     res.sendFile(path.join(__dirname + "/static/main.html"));
  })
+app.get("/midwife", (req, res) => {
+    
+    res.sendFile(path.join(__dirname + "/static/cv.html"));
+ })
 app.get("/help", (req, res) => {
     
     res.sendFile(path.join(__dirname + "/static/help.html"));
