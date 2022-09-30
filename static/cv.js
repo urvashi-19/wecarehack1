@@ -7,7 +7,7 @@ const data = [
         city: 'Kolkata',
         Education: '10th pass',
         Experience : 4,
-        contact : 123456789,
+        contact : 9625023719,
         image: 'https://randomuser.me/api/portraits/women/51.jpg'
     },
 
@@ -102,16 +102,17 @@ next.addEventListener('click', nextCV);
 function nextCV(){
     const currentCandidate = candidates.next().value;
     let image = document.getElementById('image');
+
     let profile = document.getElementById('profile');
     if(currentCandidate != undefined){
     image.innerHTML = `<img src='${currentCandidate.image}'>`;
     profile.innerHTML = `<ul class="list-group">
     <li class="list-group-item">Name: ${currentCandidate.name}</li>
-    <li class="list-group-item">${currentCandidate.age} years old</li>
-    <li class="list-group-item">Lives in ${currentCandidate.city}</li>
+    <li class="list-group-item">Age: ${currentCandidate.age} </li>
+    <li class="list-group-item">From: ${currentCandidate.city}</li>
     <li class="list-group-item">Education: ${currentCandidate.Education}</li>
-    <li class="list-group-item">Experience: ${currentCandidate.Experience}</li>
-    <li class="list-group-item">Mob.No: ${currentCandidate.contact}</li>
+    <li class="list-group-item">Experience: ${currentCandidate.Experience}years</li>
+    <li class="list-group-item"><i class="fa fa-mobile-phone" style="font-size:24px"></i> <a href="tel:123-123-123"><i class="bi bi-telephone" style={ text-decoration: block;}></i>   ${currentCandidate.contact}</a></li>
   </ul>`;
     }
     else{
