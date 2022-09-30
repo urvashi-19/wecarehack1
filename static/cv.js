@@ -17,7 +17,7 @@ const data = [
         city: 'Bangalore',
         Education: '10th pass',
         Experience : 4,
-        contact : 123456789,
+        contact : 9625023719,
         image: 'https://randomuser.me/api/portraits/women/54.jpg'
     },
 
@@ -27,7 +27,7 @@ const data = [
         city: 'Kolkata',
         Education: '12th pass',
         Experience : 8,
-        contact : 123456789,
+        contact : 9625023719,
         image: 'https://randomuser.me/api/portraits/women/55.jpg'
     },
 
@@ -37,7 +37,7 @@ const data = [
         city: 'Mumbai',
         Education: 'B.A',
         Experience : 20,
-        contact : 123456789,
+        contact : 9625023719,
         image: 'https://randomuser.me/api/portraits/women/57.jpg'
     },
 
