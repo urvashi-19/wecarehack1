@@ -22,3 +22,10 @@ h1{
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
+button{
+    font-weight: bolder;
+    width: 88px;
+    height: 31px;
+    text-align: center;
+    justify-content: end;
+}
