@@ -29,3 +29,6 @@ button{
     text-align: center;
     justify-content: end;
 }
+button:hover{
+    background-color: antiquewhite;
+}
